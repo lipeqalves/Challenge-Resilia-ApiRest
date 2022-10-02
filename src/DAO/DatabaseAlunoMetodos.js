@@ -40,12 +40,6 @@ class DatabaseAlunoMetodos extends DAO {
         const response = await this.inserir(aluno, query)
         return response;
     }
-    
-    static async atualizaAluno(id, aluno) {
-        const query = `UPDATE alunos SET nome = ?, turma = ?, idade = ? WHERE ID = ? `
-        const response = await this.atualizaPorId(aluno, id, query)
-        return response;
-    }
 
     static async excluirAluno(id) {
         const query = `DELETE FROM alunos WHERE ID = ? `

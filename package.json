@@ -1,7 +1,7 @@
 {
-  "name": "alcance-escola",
+  "name": "Challenge Resilia",
   "version": "1.0.0",
-  "description": "projeto-api-rest-modulo4",
+  "description": "challenge-resilia-api",
   "main": "app.js",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
@@ -11,7 +11,7 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "grupo3",
+  "author": "Filipe Alves",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",

@@ -50,44 +50,6 @@ class DAO {
             })
         })
     }
-
-    static listarPorId(id, query) {
-        return new Promise((resolve, reject) => {
-            Database.get(query, id, (e, resultado) => {
-                if (e) {
-                    reject(e.message)
-                } else {
-                    resolve(resultado)
-                }
-            })
-        })
-    }
-
-    static listarPorEmail(email, query) {
-        return new Promise((resolve, reject) => {
-            Database.get(query, email, (e, resultado) => {
-                if (e) {
-                    reject(e.message)
-                } else {
-                    resolve(resultado)
-                }
-            })
-        })
-    }
-
-    static atualizaPorId(entidade, id, query) {
-        const body = Object.values(entidade)
-        return new Promise((resolve, reject) => {
-            Database.run(query, [...body, id], (e) => {
-                if (e) {
-                    reject(e.message)
-                } else {
-                    resolve({ error: false, message: `Registro com Id ${id} atualizado com sucesso` })
-                }
-            })
-        })
-    }
-
     static deletaPorId(query, id) {
         return new Promise((resolve, reject) => {
             Database.run(query, id, (e) => {
