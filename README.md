@@ -27,7 +27,7 @@
 No Terminal/Console:
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone https://github.com/lipeqalves/Challenge-Resilia-ApiRest.git</code></li>
-	<li>Entre na pasta raiz do projeto: <code>cd API</code></li> 
+	<li>Entre na pasta raiz do projeto: <code>cd Challenge-Resilia-ApiRest/</code></li> 
 	<li>Para instalar as dependências, rode o comando: <code>npm install</code>
 	<li>Para inicialização do projeto utilize o comando: <code>npm run dev ou npm start</code></li>
 	<li>Foi desenvolvido uma tarefa para iniciar e popular o banco de dados. Utilize o seguinte comando para execução:<code> npm run infra</code></li>
@@ -44,9 +44,6 @@ No Navegador/Insomnia/Postman :
 	}</code></li> 
 	</li>
 </ol>
-
-
-<p>Visualização de alunos no banco de dados: </p>
 
 <h3>Tecnologias Utilizadas</h3>
 
