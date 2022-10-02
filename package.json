@@ -1,5 +1,5 @@
 {
-  "name": "Challenge Resilia",
+  "name":"challenge-resilia",
   "version": "1.0.0",
   "description": "challenge-resilia-api",
   "main": "app.js",
