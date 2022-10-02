@@ -1,6 +1,7 @@
 import AlunoModel from "../models/AlunoModel.js"
 import DatabaseAlunoMetodos from "../DAO/DatabaseAlunoMetodos.js"
 import ValidacoesServices from "../services/ValidacoesServices.js"
+
 class Alunos {
     static rotas(app) {
         app.get("/", (req, res) => {
@@ -10,6 +11,7 @@ class Alunos {
                 res.status(400).json({ error: true, msg: e.message })
             }
         })
+
         app.get("/alunos", async (req, res) => {
             try {
                 const response = await DatabaseAlunoMetodos.listarAlunos()
@@ -18,6 +20,7 @@ class Alunos {
                 res.status(400).json({ error: true, msg: e.message })
             }
         })
+
         app.post("/alunos", async (req, res) => {
             try {
                 const validaAluno = ValidacoesServices.validaNome(...Object.values(req.body))
@@ -49,4 +52,5 @@ class Alunos {
         })
     }
 }
+
 export default Alunos
