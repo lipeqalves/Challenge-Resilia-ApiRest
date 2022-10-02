@@ -1,21 +1,6 @@
-<h1>Restaurante API</h1>
-<p>Sacola API para Servir uma Aplicação com Domínio de Delivery</p>
-<p align="center">
-<a href="https://docs.google.com/presentation/d/1O_lCZFiuU9MOsot-pJv2lb7kKrRs4ykW/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true">Slides dia 1</a> ♥ 
-<a href="https://docs.google.com/presentation/d/14JDFLaWvK6KL_9ZxubRoBciWQ_aVcxd4/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true">Slides dia 2</a> ♥
-<a href="https://docs.google.com/presentation/d/11rOmP1u7nwYv5mL4ovmquYMZWktPwIiJ/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true">Slides dia 3</a> ♥ 
-<a href="https://docs.google.com/presentation/d/162KrAjBivpN4GKzPVwv7y-JcIPUnN1_h/edit?usp=sharing&ouid=101340348592910912358&rtpof=true&sd=true">Slides dia 4</a>
-</p>
+<h1>Challenge Resilia API</h1>
+<p>API para Servir a aplicação do desafio Challenge Resilia</p>
 
-<h3>Status do Projeto</h3>
-<p align="center"> Challenge Resilia API 💻 </p>
-
-<h3>Features</h3>
-
-- [x] Incluir itens na sacola<br>
-- [x] Visualizar sacola<br>
-- [x] Fechar sacola<br>
-- [ ] Excluir item da sacola<br>
 
 <h3>Demostração da Aplicação</h3>
 <p>Antes de começar, você precisará ter instalado em sua máquina as seguintes ferramentas:</p>
@@ -25,89 +10,68 @@
 	<th>Versão</th>
 </tr>
 <tr>
-	<td>Java JDK</td>
-	<td>8+</td>
+	<td>Node JS</td>
+	<td>16+</td>
 </tr>
 <tr>
 	<td>Git</td>
 	<td>2.**</td>
 </tr>
 <tr>
-	<td>Gradle</td>
-	<td>7.**</td>
-</tr>
-<tr>
-	<td>Postman</td>
-	<td>9.**</td>
+	<td>Postman ou Insomnia</td>
+	<td>***</td>
 </tr>
 </table>
-<h6>** Visando facilitar a demostração da aplicação, recomendo instalar apenas o IntelliJ IDEA e rodar o projeto através da IDE **</h6>
 
+<h6>** Nesse projeto, Foi utilizado a IDE Visual Studio Code **</h6>
 No Terminal/Console:
 <ol>
 	<li>Faça um clone do projeto na sua máquina: <code>git clone https://github.com/lipeqalves/Challenge-Resilia-ApiRest.git</code></li>
 	<li>Entre na pasta raiz do projeto: <code>cd API</code></li> 
-	<li>Rode os comandos: <code>npm install</code>
-    <code>npm run dev</code></li>
-	<li>Com a aplicação "de pé", clique aqui: <a href="http://localhost:3000/alunos">http://localhost:3000/alunos/</a></li>
+	<li>Para instalar as dependências, rode o comando: <code>npm install</code>
+	<li>Para inicialização do projeto utilize o comando: <code>npm run dev ou npm start</code></li>
+	<li>Foi desenvolvido uma tarefa para iniciar e popular o banco de dados. Utilize o seguinte comando para execução:<code> npm run infra</code></li>
 </ol>
 
-<a href="https://drive.google.com/file/d/1-FTY7jRfYbqVNQi-B7Dvn8p6wjnzf2f6/view?usp=sharing"> 🚀 Collection API - Postman</a><br>
+No Navegador/Insomnia/Postman :
+<ol>
+	<li>Digite o caminho: <code>http://localhost:3000/alunos</code></li>
+	<li>Exemplo de resposta: <code>{
+		"id": 1,
+		"nome": "Filipe",
+		"Turma": "T18",
+		"idade": "20",
+	}</code></li> 
+	</li>
+</ol>
 
-<img src="https://i.imgur.com/UBHcWKt.png" alt="Sacola API Swagger UI">
+
+<p>Visualização de alunos no banco de dados: </p>
 
 <h3>Tecnologias Utilizadas</h3>
 
-<table>
-<tr>
-	<th>Dependência</th>
-	<th>Versão</th>
-</tr>
-<tr>
-	<td>spring initialzr</td>
-	<td><a href="https://start.spring.io/">https://start.spring.io/</a></td>
-</tr>
-<tr>
-	<td>spring-boot-starter-web</td>
-	<td>2.7.4</td>
-</tr>
-<tr>
-	<td>spring-boot-starter-data-jpa</td>
-	<td>2.7.4</td>
-</tr>
-<tr>
-	<td>lombok</td>
-	<td>1.18.24</td>
-</tr>
-<tr>
-	<td>springfox-boot-starter</td>
-	<td>3.0.0</td>
-</tr>
-<tr>
-	<td>h2</td>
-	<td>2.1.214</td>
-</tr>
-</table>
+![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![image](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![image](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge) 
+![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+<h3>Status do Projeto</h3>
+
+<p align="center"> Challenge Resilia API Finalizada 💻 </p>
 
 <h3>Autor</h3>
 
-<a href="https://www.linkedin.com/in/cami-la/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64323124?v=4" width="100px;" alt=""/>
+Feito por Filipe 👋🏽
+
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102266909?s=400&u=2e5691364ba12e5323467556079a711c17e7a73c&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Camila Cavalcante</b></sub></a> <a href="https://www.instagram.com/camimi_la/" title="Instagram"></a>
+Este repositório foi criado para fins de estudo, então contribua com ele, dicas e sugestões entre em contato!<br>
 
-Feito por Filipe 👋🏽 Entre em contato!
-
-[![Linkedin Badge](https://img.shields.io/badge/-Camila-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/cami-la/)](https://www.linkedin.com/in/filipeqalves/)
+[![Linkedin Badge](https://img.shields.io/badge/-Filipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/filipeqalves/)](https://www.linkedin.com/in/filipeqalves/)
 [![Gmail Badge](https://img.shields.io/badge/-lipeqa@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lipeqa@gmail.com)](mailto:lipeqa@gmail.com)
 <hr>
-<h3>Contribuindo</h3>
-
-Este repositório foi criado para fins de estudo, então contribua com ele.<br>
-Se te ajudei de alguma forma, ficarei feliz em saber. E caso você conheça alguém que se identifique com o conteúdo, não deixe de compatilhar.
 
 Se possível:
 
 ⭐️  Star o projeto
 
-🐛 Encontrar e relatar issues
