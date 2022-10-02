@@ -8,7 +8,7 @@
 </p>
 
 <h3>Status do Projeto</h3>
-<p align="center"> Sacola API 💻 Em construção... </p>
+<p align="center"> Challenge Resilia API 💻 </p>
 
 <h3>Features</h3>
 
@@ -45,13 +45,14 @@
 
 No Terminal/Console:
 <ol>
-	<li>Faça um clone do projeto na sua máquina: <code>git clone https://github.com/cami-la/sacola-api.git</code></li>
-	<li>Entre na pasta raiz do projeto: <code>cd sacola-api</code></li> 
-	<li>Rode o comando: <code>./gradlew bootrun</code></li>
-	<li>Com a aplicação "de pé", clique aqui: <a href="http://localhost:8081/swagger-ui/">http://localhost:8081/swagger-ui/</a></li>
+	<li>Faça um clone do projeto na sua máquina: <code>git clone https://github.com/lipeqalves/Challenge-Resilia-ApiRest.git</code></li>
+	<li>Entre na pasta raiz do projeto: <code>cd API</code></li> 
+	<li>Rode os comandos: <code>npm install</code>
+    <code>npm run dev</code></li>
+	<li>Com a aplicação "de pé", clique aqui: <a href="http://localhost:3000/alunos">http://localhost:3000/alunos/</a></li>
 </ol>
 
-<a href="https://drive.google.com/file/d/1-FTY7jRfYbqVNQi-B7Dvn8p6wjnzf2f6/view?usp=sharing"> 🚀 Collection Sacola API - Postman</a><br>
+<a href="https://drive.google.com/file/d/1-FTY7jRfYbqVNQi-B7Dvn8p6wjnzf2f6/view?usp=sharing"> 🚀 Collection API - Postman</a><br>
 
 <img src="https://i.imgur.com/UBHcWKt.png" alt="Sacola API Swagger UI">
 
