@@ -38,9 +38,9 @@ No Navegador/Insomnia/Postman :
 	<li>Digite o caminho: <code>http://localhost:3000/alunos</code></li>
 	<li>Exemplo de resposta: <code>{
 		"id": 1,
-		"nome": "Filipe",
+		"nome": "Filipe Alves",
 		"Turma": "T18",
-		"idade": "20",
+		"idade": "35",
 	}</code></li> 
 	</li>
 </ol>
